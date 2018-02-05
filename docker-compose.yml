@@ -1,8 +1,7 @@
 version: '3.3'
 services:
     jenkins:
-      build: .
-      # image: jenkins/jenkins:lts
+      image: proactivehk/jenkins-with-docker:latest
       ports:
         - '18080:8080'
         - '50000:50000'
